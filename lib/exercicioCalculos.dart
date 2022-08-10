@@ -14,9 +14,9 @@ void raioCircunferencia(double circunferencia) {
 }
 
 void calculaIdade(int dias) {
-  int anos = (dias / 360).floor();
-  int meses = ((dias % 360) / 30).floor();
-  int diasRestantes = ((dias % 360) % 30);
+  int anos = (dias / 365).floor();
+  int meses = ((dias % 365) / 30).floor();
+  int diasRestantes = ((dias % 365) % 30);
 
   print("$anos anos, $meses meses e $diasRestantes dias");
 }

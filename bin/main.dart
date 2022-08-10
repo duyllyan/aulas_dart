@@ -9,5 +9,5 @@ void main() {
   areaRetangulo(4.0, 2.0);
   areaTriangulo(3.0, 2.0);
   raioCircunferencia(42);
-  calculaIdade(7861);
+  calculaIdade(5000);
 }
