@@ -1,3 +1,4 @@
+import 'package:aula_variaveis/exercicioBool.dart';
 import 'package:aula_variaveis/exercicioCalculos.dart';
 import 'package:aula_variaveis/aulaDouble.dart';
 import 'package:aula_variaveis/aulaInt.dart';
@@ -10,4 +11,6 @@ void main() {
   areaTriangulo(3.0, 2.0);
   raioCircunferencia(42);
   calculaIdade(5000);
+
+  exercicioBool();
 }
