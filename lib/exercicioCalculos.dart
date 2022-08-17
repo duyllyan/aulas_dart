@@ -13,10 +13,10 @@ void raioCircunferencia(double circunferencia) {
   print("Raio da circunferência: ${raio.toStringAsFixed(2)}");
 }
 
-void calculaIdade(int dias) {
+String calculaIdade(int dias) {
   int anos = (dias / 365).floor();
   int meses = ((dias % 365) / 30).floor();
   int diasRestantes = ((dias % 365) % 30);
 
-  print("$anos anos, $meses meses e $diasRestantes dias");
+  return "$anos anos, $meses meses e $diasRestantes dias";
 }
